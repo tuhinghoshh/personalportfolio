@@ -44,21 +44,32 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["React", "Node.js", "Express.js", "MongoDB"],
+    url: "https://mern-ecommerce-1xvi.onrender.com/",
   },
   {
-    title: "Task Management App",
+    title: "Linkedin Clone",
+    image: project4,
+    description:
+      "A fullstack linkedin clone like application, where user can interact with other user",
+    technologies: ["React", "Node.js", "Express.js", "MongoDB"],
+    url: "https://linkedin-clone-1-uiph.onrender.com/",
+  },
+  {
+    title: "FullStack Chat App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A realtime chat application using react, realtime chat experience between two user",
+    technologies: ["React", "Node.js", "Express", "Socket.IO"],
+    url: "https://fullstack-chat-app-vy9g.onrender.com/"
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React", "Tailwind"],
+    url: "https://personalportfolio-tau-wine.vercel.app/",
   },
   {
     title: "Blogging Platform",
@@ -66,6 +77,7 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "React", "Appwrite"],
+    url: "https://appwriteblog4u.vercel.app/",
   },
 ];
 

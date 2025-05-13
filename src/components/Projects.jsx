@@ -1,5 +1,6 @@
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
@@ -37,11 +38,20 @@ function Projects() {
             >
               <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
               <p className="mb-4 text-stone-400">{project.description}</p>
+              <div className="mb-4">
               {project.technologies.map((tech, index) => (
-                <span className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300 key={index}">
+                <span key={index} className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300 key={index}">
                   {tech}
                 </span>
               ))}
+              </div>
+              <a
+                href={project.url}
+                target="_blank"
+                className="block mb-2 text-blue-400 underline"
+              >
+                Visit
+              </a>
             </motion.div>
           </div>
         ))}
